@@ -14,14 +14,15 @@
   </head>
   <body>
     <h1>Weather</h1>
-   <div class="weather-app">
+    <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city.."
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="Search" class="search-form-button" />
         </form>
@@ -29,7 +30,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Tuesday 14:49, scattered clouds
               <br />
@@ -44,26 +45,27 @@
         </div>
       </main>
 
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/ramonakartman" target="_blank"
-          >Kateryna Rumiantseva</a
-        >
-        and is on
-        <a
-          href="https://github.com/ramonakartman/my-weather-project-7"
-          target="_blank"
-          >GitHub</a
-        >
-        and hosted on
-        <a
-          href="https://kr-shecodes-weather-project.netlify.app/"
-          target="_blank"
-          >Netlify</a
-        >
-      </p>
-    </footer>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/ramonakartman" target="_blank"
+            >Kateryna Rumiantseva</a
+          >
+          and is on
+          <a
+            href="https://github.com/ramonakartman/my-weather-project-7"
+            target="_blank"
+            >GitHub</a
+          >
+          and hosted on
+          <a
+            href="https://kr-shecodes-weather-project.netlify.app/"
+            target="_blank"
+            >Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
